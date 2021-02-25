@@ -27,6 +27,7 @@ if ($stmt_result->num_rows > 0 ){
         }
   }else {
     echo "<h2>rigister first</h2>";
+    header('location: register.php');
 
 }
 
